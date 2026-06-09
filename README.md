@@ -21,17 +21,17 @@ This is your project home for the FURP programme. **Fork this template**, rename
 
 ---
 
-## Project Info — *fill this in*
+## Project Info
 
 | Field | Your entry |
 |---|---|
-| Student name(s) | _e.g. Jason Zhang_ |
+| Student name(s) | Jovid Sobirov |
 | Project title | _..._ |
-| Project tag | _e.g. ROSBootcamp_ |
+| Project tag | _ROSBootcamp_ |
 | Track | Research |
-| Supervising faculty | _..._ |
-| Project lead | _..._ |
-| Team or individual | _..._ |
+| Supervising faculty | _FoSE_ |
+| Project lead | _Fuhua Jia_ |
+| Team or individual | _Individual_ |
 | Cited paper being replicated | _title + link/DOI_ |
 
 **One-line summary:** _What is your project about? (1–2 sentences)_
