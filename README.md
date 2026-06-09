@@ -30,8 +30,8 @@ This is your project home for the FURP programme. **Fork this template**, rename
 | Project tag | _ROSBootcamp_ |
 | Track | Research |
 | Supervising faculty | _FoSE_ |
-| Project lead | _Fuhua Jia_ |
-| Team or individual | _Individual_ |
+| Project lead | _..._ |
+| Team or individual | _..._ |
 | Cited paper being replicated | _title + link/DOI_ |
 
 **One-line summary:** _What is your project about? (1–2 sentences)_
