@@ -51,7 +51,7 @@ __________________________________________
 
 ### Week 0 — 2026-06-15
 
-**Attended this week's meeting:** Attended optional meeting on Tuesday
+**Attended this week's meeting:** Yes (Optional meeting on Tuesday)
 
 **Progress this week**
 - Set up github repository and made it public.
@@ -68,6 +68,6 @@ __________________________________________
 - Follow up on "How to ask questions" guide and get familiar with it.
 - Get a deeper understanding on nodes
 
-**Hours spent (optional):** Around 8 hours.
+**Hours spent:** Around 8 hours.
 
-**Links:** External resources used: https://youtu.be/HJAE5Pk8Nyw?si=cGPGFdZ1Q_mpDz07
+**Links of External resources used:** https://youtu.be/HJAE5Pk8Nyw?si=cGPGFdZ1Q_mpDz07
