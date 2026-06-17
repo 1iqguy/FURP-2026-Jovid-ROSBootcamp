@@ -52,6 +52,6 @@ Consistent weekly engagement is the backbone of a successful FURP project — an
 - [⩗] Forked the template and renamed the repo (`FURP-2025/YourName-ProjectTag`)
 - [⩗] Made the repo public **or** shared it with the research group
 - [ ] Filled in the *Project Info* table above
-- [ ] Started `docs/00_weekly.md`
+- [⩗] Started `docs/00_weekly.md`
 - [ ] Created my first file in `docs/meeting_notes/`
 - [ ] (By Showcase) Added `FURP_Showcase.pdf` to the repo root
