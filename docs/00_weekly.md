@@ -30,28 +30,33 @@
 
 <!-- =================  YOUR ENTRIES BELOW  ================= -->
 
-### Week 1 — YYYY-MM-DD
+### Week 1 — 2026-06-21
 
-**Attended this week's meeting:** Yes / No
+**Attended this week's meeting:** Yes //however meeting was in Chinese, therefore I was told that I may leave
 
 **Progress this week**
-- Set up repository from the FURP template.
-- _..._
+- Followed up on "How to ask questions" guide //as mentioned in previous week log
+- Got a deeper understanding nodes, topics, services, paramaters and actions //as mentioned in previous week log
+- Learnt how to use rqt to inspect logs //rqt_graph included
+- Learnt how to record and playback data.
+- Learnt how to create isolated workspace through colcon //underlays
+- Sourced underlay and tested how it does work //basically played with it, since it's isolated playground
+- Created my own package //by CMake, since I understand it better
 
 **Challenges & blockers**
-- _..._
+- None for now
 
 **Next steps**
-- _..._
+- Create a simple publisher and subscriber 
 
-**Hours spent (optional):**
+**Hours spent:** ~10 hours
 
-**Links (optional):**
+**Links:** https://youtu.be/HJAE5Pk8Nyw?si=cGPGFdZ1Q_mpDz07
 __________________________________________
 
 ### Week 0 — 2026-06-15
 
-**Attended this week's meeting:** Yes (Optional meeting on Tuesday)
+**Attended this week's meeting:** Yes //Optional meeting on Monday
 
 **Progress this week**
 - Set up github repository and made it public.
@@ -62,11 +67,10 @@ __________________________________________
 
 **Challenges & blockers**
 - Not a challenge but, I would need a bit more time to get familiar with "How to ask questions" guide.
-- It's not hard, just new. 
 
 **Next steps**
 - Follow up on "How to ask questions" guide and get familiar with it.
-- Get a deeper understanding on nodes
+- Get a deeper understanding on nodes, topics, services, parameters and actions.
 
 **Hours spent:** Around 8 hours.
 
