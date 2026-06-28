@@ -84,7 +84,7 @@ Some of the test photos
 
 <img width="2505" height="1418" alt="image (1)" src="https://github.com/user-attachments/assets/f2f7a359-f9dc-4f23-976e-bca77060859c" />
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Decided to check how does it go with disabled loop_closure (not default but disabled completely, this one is one of the best attempts)
 
 <img width="2434" height="1418" alt="image (2)" src="https://github.com/user-attachments/assets/d8868386-4d79-45b9-9ff5-171d8fbc94a4" />
