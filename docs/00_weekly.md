@@ -53,6 +53,7 @@ Second day was more successful. Added max_laser_range = 6 (seemed valid as entir
 <img width="591" height="584" alt="maze_map" src="https://github.com/user-attachments/assets/d7b98b8c-f300-41a8-840b-8a41590a0424" />
 
 Third day map looks nicely. Resolution = 0.03 and loop_closure added.
+
 slam_toolbox:
   ros__parameters:
   
