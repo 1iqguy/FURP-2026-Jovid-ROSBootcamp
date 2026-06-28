@@ -44,6 +44,7 @@
 - Spent 3 days playing with the config parameters and here's how it went:
 <img width="139" height="158" alt="maze_map" src="https://github.com/user-attachments/assets/38634965-0124-4546-a490-c73da6587fc4" />
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 First configuration had minimum_interval_time = 0.333; didn't had loop_closure or max_laser_range parameters (defaults used) and map wasn't good. Apparently I started the executables wrongly (I think so at least). Therefore map wasn't updating even though I did move the robot around the maze. Anyway first day of playing brought me to this map.
 
 <img width="159" height="172" alt="map_1782549382" src="https://github.com/user-attachments/assets/387168a4-1239-401d-b79c-e03787ed86d4" />
@@ -84,6 +85,7 @@ Some of the test photos
 
 <img width="2505" height="1418" alt="image (1)" src="https://github.com/user-attachments/assets/f2f7a359-f9dc-4f23-976e-bca77060859c" />
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Decided to check how does it go with disabled loop_closure (not default but disabled completely, this one is one of the best attempts)
 
 <img width="2434" height="1418" alt="image (2)" src="https://github.com/user-attachments/assets/d8868386-4d79-45b9-9ff5-171d8fbc94a4" />
