@@ -30,6 +30,55 @@
 
 <!-- =================  YOUR ENTRIES BELOW  ================= -->
 
+### Week 4 — 2026-07-12
+
+**Attended this week's meeting:** No //it was cancelled
+
+**Progress this week**
+- Put the Nav2 into the demo case.
+- It works, however has significant issues. The process will be explained and showed further:
+- I have decided to start with easiest steps required to start my learning path, therefore file doesn't modify (or uses Nav2 standard values): velocity_smoother, goal_checker, progress_checker, smoother_server, AMCL or slam in localization mode.
+- I have decided to use slam_toolbox from previous assignment almost unchanged #//lowered resolution to lower cpu usage
+- I have decided to use Regulated Pure Pursuit instead of DWB since this assignment (in my opinion) doesn't require DWB
+- The code looks as follows: [nav2_params.yaml](https://github.com/user-attachments/files/29962586/nav2_params.yaml)
+- Please note that during tests I have changed some values, therefore they may look weird (as footprint_padding and inflation_radius) #//this is directly linked to issues described in **Challenges & blockers**.
+
+
+**Challenges & blockers**
+- Code generally works, however parameters set in local_costmap and global_costmap of the yaml file are not the ones used by simulation. For some (unknown yet) reason, simulation ignores parameters in the yaml file. Refer to the image below and pay attention to resolution for local and global costmap values used in the simulation and in the yaml file.
+<img width="554" height="619" alt="image" src="https://github.com/user-attachments/assets/b315c062-6ea8-45c6-8d27-a24b8a22aea1" />
+
+
+**Next steps**
+- Debug to understand what is the happening with the local and global costmap.
+- Implement DWB, ACML, velocity_smoother and others.
+
+**Hours spent:** 30h
+
+**Links of External resources used:** https://docs.nav2.org/
+
+---
+
+### Week 3 — 2026-07-05 
+
+**Attended this week's meeting:** Yes
+
+**Progress this week**
+- Played with slam parameters enough to understand them better //as mentioned in previous day log
+- Started learning Nav2 and getting familiar with it //mostly theory and how things work on a paper
+
+**Challenges & blockers**
+- Had issues with understanding how to put it into work on practice.
+
+**Next steps**
+- Add Nav2 point navigation for demo case sent by supervisor
+
+**Hours spent:** 20 h
+
+**Links of External resources used:** https://docs.nav2.org/
+
+---
+
 ### Week 2 — 2026-06-28
 
 **Attended this week's meeting:** No //lesson was in Chinese and I'm not (quite surprising)
