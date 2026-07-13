@@ -47,11 +47,16 @@
 **Challenges & blockers**
 - Code generally works, however parameters set in local_costmap and global_costmap of the yaml file are not the ones used by simulation. For some (unknown yet) reason, simulation ignores parameters in the yaml file. Refer to the image below and pay attention to resolution for local and global costmap values used in the simulation and in the yaml file.
 <img width="554" height="619" alt="image" src="https://github.com/user-attachments/assets/b315c062-6ea8-45c6-8d27-a24b8a22aea1" />
+Param dump for local_costmap:
+<img width="809" height="587" alt="image" src="https://github.com/user-attachments/assets/791321ec-3804-481d-ad3e-5bbd6b5d0722" />
+Param dump for global_costmap:
+<img width="786" height="593" alt="image" src="https://github.com/user-attachments/assets/3dc1b087-a9eb-490e-92f8-c8d00c76bf1b" />
+
 
 
 **Next steps**
 - Debug to understand what is the happening with the local and global costmap.
-- Implement DWB, ACML, velocity_smoother and others.
+- Implement DWB, AMCL, velocity_smoother and others.
 
 **Hours spent:** 30h
 
