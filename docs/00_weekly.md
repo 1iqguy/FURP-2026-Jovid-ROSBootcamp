@@ -43,8 +43,7 @@ Current params: [nav2_params.yaml](https://github.com/user-attachments/files/300
 **Progress this week**
 - Put the Nav2 into the demo case.
 - It works, however has significant issues. The process will be explained and showed further:
-- I have decided to start with easiest[nav2_params.yaml](https://github.com/user-attachments/files/30002111/nav2_params.yaml)
- steps required to start my learning path, therefore file doesn't modify (or uses Nav2 standard values): velocity_smoother, goal_checker, progress_checker, smoother_server, AMCL or slam in localization mode.
+- I have decided to start with easiest steps required to start my learning path, therefore file doesn't modify (or uses Nav2 standard values): velocity_smoother, goal_checker, progress_checker, smoother_server, AMCL or slam in localization mode.
 - I have decided to use slam_toolbox from previous assignment almost unchanged #//lowered resolution to lower cpu usage
 - I have decided to use Regulated Pure Pursuit instead of DWB since this assignment (in my opinion) doesn't require DWB
 - The code looks as follows: [nav2_params.yaml](https://github.com/user-attachments/files/29962586/nav2_params.yaml)
@@ -53,10 +52,15 @@ Current params: [nav2_params.yaml](https://github.com/user-attachments/files/300
 
 **Challenges & blockers**
 - Code generally works, however parameters set in local_costmap and global_costmap of the yaml file are not the ones used by simulation. For some (unknown yet) reason, simulation ignores parameters in the yaml file. Refer to the image below and pay attention to resolution for local and global costmap values used in the simulation and in the yaml file.
+
 <img width="554" height="619" alt="image" src="https://github.com/user-attachments/assets/b315c062-6ea8-45c6-8d27-a24b8a22aea1" />
+
 Param dump for local_costmap:
+
 <img width="809" height="587" alt="image" src="https://github.com/user-attachments/assets/791321ec-3804-481d-ad3e-5bbd6b5d0722" />
+
 Param dump for global_costmap:
+
 <img width="786" height="593" alt="image" src="https://github.com/user-attachments/assets/3dc1b087-a9eb-490e-92f8-c8d00c76bf1b" />
 
 
