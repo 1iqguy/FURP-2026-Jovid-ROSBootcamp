@@ -30,6 +30,12 @@
 
 <!-- =================  YOUR ENTRIES BELOW  ================= -->
 
+### Week 4 Update
+
+Debugging of the yaml file revealed that I made a mistake in the yaml file itself (to be specific, I did not configure local and global costmap in the right way) and therefore simluation ignored them. Nav2 works nicely right now, no further issues found. As written in the week 4 "Next steps" I'll implement DWB, AMCL etc.
+
+Current params: [nav2_params.yaml](https://github.com/user-attachments/files/30002128/nav2_params.yaml)
+
 ### Week 4 — 2026-07-12
 
 **Attended this week's meeting:** No //it was cancelled
@@ -37,7 +43,8 @@
 **Progress this week**
 - Put the Nav2 into the demo case.
 - It works, however has significant issues. The process will be explained and showed further:
-- I have decided to start with easiest steps required to start my learning path, therefore file doesn't modify (or uses Nav2 standard values): velocity_smoother, goal_checker, progress_checker, smoother_server, AMCL or slam in localization mode.
+- I have decided to start with easiest[nav2_params.yaml](https://github.com/user-attachments/files/30002111/nav2_params.yaml)
+ steps required to start my learning path, therefore file doesn't modify (or uses Nav2 standard values): velocity_smoother, goal_checker, progress_checker, smoother_server, AMCL or slam in localization mode.
 - I have decided to use slam_toolbox from previous assignment almost unchanged #//lowered resolution to lower cpu usage
 - I have decided to use Regulated Pure Pursuit instead of DWB since this assignment (in my opinion) doesn't require DWB
 - The code looks as follows: [nav2_params.yaml](https://github.com/user-attachments/files/29962586/nav2_params.yaml)
