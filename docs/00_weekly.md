@@ -30,6 +30,31 @@
 
 <!-- =================  YOUR ENTRIES BELOW  ================= -->
 
+### Week 5 — 2026-07-19
+
+**Attended this week's meeting:** Yes
+
+**Progress this week**
+- Read theoretical part of DWBLocalPlanner
+- Tried to implement DWBLocalPlanner into the code instead of current RPP //as mentioned in previous day log
+- Current code: [nav2_params.yaml](https://github.com/user-attachments/files/30164417/nav2_params.yaml)
+- DWB generally works, however there is a specific case that causes issues. //check challenges & blockers
+
+**Challenges & blockers**
+- I have no idea why but scales used for 'PathAlign, GoalAlign and PathDist' are divided by 40 during the simulation. Also, 'ObstacleFootprint' scale value is divided by 20, however BaseObstacle scale value is as written in the yaml file. I have checked exact values through 'ros2 topic echo /evaluation'. Param dump for controller_server doesn't show anything unusual. I have just noticed that with current value of the 'PathAlign' scale, simulation considers it as 0.0. I'll look into it on the next week. //This issue is partly solved by multiplying every scale by its ratio, however would be nice to understand what is going on.
+- Second issue I have encountered is that critics don't take into account curvature of the path, therefore may stuck in specific occasions when goal is just after the curvature.
+- Thirdly, BaseObstacle critic or ObstacleFootprint critic are not working properly //I've never seen their raw_score to go above 0.0
+- Last note: robot is just slow. I'll look into it after solving previous issues.
+
+**Next steps**
+- Solve every issue discussed earlier
+
+**Hours spent:** 20-30h
+
+**Links of External resources used:** https://docs.nav2.org/configuration/packages/dwb-params/controller.html#dwb-controller
+
+---
+
 ### Week 4 Update
 
 Debugging of the yaml file revealed that I made a mistake in the yaml file itself (to be specific, I did not configure local and global costmap in the right way) and therefore simluation ignored them. Nav2 works nicely right now, no further issues found. As written in the week 4 "Next steps" I'll implement DWB, AMCL etc.
