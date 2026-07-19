@@ -38,7 +38,7 @@
 - Read theoretical part of DWBLocalPlanner
 - Tried to implement DWBLocalPlanner into the code instead of current RPP //as mentioned in previous day log
 - Current code: [nav2_params.yaml](https://github.com/user-attachments/files/30164417/nav2_params.yaml)
-- DWB generally works, however there is a specific case that causes issues. //check challenges & blockers
+- DWB generally works, however there is a some issues //check challenges & blockers
 
 **Challenges & blockers**
 - I have no idea why but scales used for 'PathAlign, GoalAlign and PathDist' are divided by 40 during the simulation. Also, 'ObstacleFootprint' scale value is divided by 20, however BaseObstacle scale value is as written in the yaml file. I have checked exact values through 'ros2 topic echo /evaluation'. Param dump for controller_server doesn't show anything unusual. I have just noticed that with current value of the 'PathAlign' scale, simulation considers it as 0.0. I'll look into it on the next week. //This issue is partly solved by multiplying every scale by its ratio, however would be nice to understand what is going on.
