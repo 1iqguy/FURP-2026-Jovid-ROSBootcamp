@@ -42,8 +42,8 @@
 
 **Challenges & blockers**
 - I have no idea why but scales used for 'PathAlign, GoalAlign and PathDist' are divided by 40 during the simulation. Also, 'ObstacleFootprint' scale value is divided by 20, however BaseObstacle scale value is as written in the yaml file. I have checked exact values through 'ros2 topic echo /evaluation'. Param dump for controller_server doesn't show anything unusual. I have just noticed that with current value of the 'PathAlign' scale, simulation considers it as 0.0. I'll look into it on the next week. //This issue is partly solved by multiplying every scale by its ratio, however would be nice to understand what is going on.
-- Second issue I have encountered is that critics don't take into account curvature of the path, therefore may stuck in specific occasions when goal is just after the curvature.
-- Thirdly, BaseObstacle critic or ObstacleFootprint critic are not working properly //I've never seen their raw_score to go above 0.0
+- Second issue I have encountered is that critics don't take into account curvature of the path, therefore may stuck in specific occasions when goal is just after the curvature. //Can be solved quite easily, I just spent most of the time understanding the issue above.
+- Thirdly, BaseObstacle critic or ObstacleFootprint critic are not working properly //I've never seen their raw_score to go above 0.0, I'll check after understanding the first issue
 - Last note: robot is just slow. I'll look into it after solving previous issues.
 
 **Next steps**
